@@ -4,8 +4,8 @@ def hitung_rata2(daftar_nilai):
         total += nilai
     return total / len(daftar_nilai)
 
-    
-def cetak_hasil (nama,daftar_nilai):
+
+def cetak_hasil(nama, daftar_nilai):
  hasil=hitung_rata2( daftar_nilai )
  print("Mahasiswa: "+nama+", Rata-rata nilai:"+str( hasil ))
  daftar_nilai.sort() ;print ("Nilai Terendah:",daftar_nilai[0],"| Nilai Tertinggi:",daftar_nilai[-1] )
