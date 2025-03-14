@@ -1,7 +1,7 @@
 def hitung_rata2(daftar_nilai):
     total = 0
     for nilai in daftar_nilai:
-      total+=nilai
+      total += nilai
     return total / len(daftar_nilai)
 def cetak_hasil (nama,daftar_nilai):
  hasil=hitung_rata2( daftar_nilai )
