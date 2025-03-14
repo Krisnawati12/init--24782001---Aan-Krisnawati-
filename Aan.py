@@ -3,6 +3,8 @@ def hitung_rata2(daftar_nilai):
     for nilai in daftar_nilai:
         total += nilai
     return total / len(daftar_nilai)
+
+    
 def cetak_hasil (nama,daftar_nilai):
  hasil=hitung_rata2( daftar_nilai )
  print("Mahasiswa: "+nama+", Rata-rata nilai:"+str( hasil ))
